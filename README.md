@@ -13,8 +13,6 @@
 
 :key: This project is a simple command-line application that will generate strong passwords for your accounts.
 
-![Sign in](/.github/sign-in.png)
-
 ## :computer: Techs
 
 - Javascript
