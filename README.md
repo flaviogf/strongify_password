@@ -20,7 +20,7 @@
 
 ## :thinking: How to use
 
-### With npm
+### npm
 
 ```sh
 npm install --global strongify_password
@@ -30,7 +30,7 @@ npm install --global strongify_password
 strongify-password
 ```
 
-### With yarn
+### yarn
 
 ```sh
 yarn global add strongify_password
