@@ -20,8 +20,20 @@
 
 ## :thinking: How to use
 
+### With npm
+
 ```sh
-yarn global add strongify-password
+npm install --global strongify_password
+```
+
+```sh
+strongify-password
+```
+
+### With yarn
+
+```sh
+yarn global add strongify_password
 ```
 
 ```sh
