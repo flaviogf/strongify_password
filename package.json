@@ -1,6 +1,6 @@
 {
   "name": "strongify_password",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "./lib/index.js",
   "repository": "git@github.com:flaviogf/strongify_password.git",
   "author": "flaviogf <flavio.fernandes6@gmail.com>",
