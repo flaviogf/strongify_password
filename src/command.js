@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import chalk from 'chalk'
 import inquirer from 'inquirer'
 import strongify, { uppercase, lowercase, number, special } from './index'
@@ -8,6 +6,12 @@ console.log(chalk.bold(chalk.green(`Welcome to strongify password.`)))
 
 inquirer
   .prompt([
+    {
+      type: 'list',
+      name: 'length',
+      message: 'What length password?',
+      choices: [8, 16, 32, 64],
+    },
     {
       type: 'confirm',
       name: 'uppercase',
@@ -64,7 +68,7 @@ inquirer
       return
     }
 
-    const password = strongify(12, ...options)
+    const password = strongify(answer.length, ...options)
 
     console.log(
       chalk.bold(
